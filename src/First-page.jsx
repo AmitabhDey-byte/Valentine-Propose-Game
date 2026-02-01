@@ -30,12 +30,12 @@ export default function FirstPage() {
         Me might not look as good as you... but me cook nice and happy <br/>
         to be your Personal chef this valentine
       </p>
-    </div>
+    
      <Link to="/main-page">
     <button className='yes' onClick={() => {alert('I knew you will say yes!! ❤️😍😍'); }} > Yes</button>
     </Link>
     <button className='no' style={{position: 'absolute', top: clickNo.top, left: clickNo.left}} onMouseEnter={handleNoClick}>No</button>
-
+</div>
     </div>
   );
 }
